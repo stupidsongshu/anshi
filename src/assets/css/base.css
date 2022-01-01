@@ -1,0 +1,61 @@
+*, *::before, *::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+html {
+  height: 100%;
+}
+body {
+  display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+  min-height: 100%;
+  margin: 0 auto;
+  font-family: "Microsoft Yahei";
+}
+p, h1, h2, h3, h4, h5, h6 {
+  padding: 0;
+  margin: 0;
+  font-weight: normal;
+}
+ul, li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+.clearfix:after {
+  content: "";
+  clear: both;
+  display: block;
+  height: 0;
+  font-size: 0;
+  visibility: hidden;
+}
+
+.font-bold { font-weight: bold;}
+.text-center { text-align: center; }
+
+.flex { display: flex; }
+.flex1 { flex: 1; }
+.flex-wrap { flex-wrap: wrap; }
+.flex-center { justify-content: center; align-items: center; }
+.flex-direction-row { flex-direction: row; }
+.flex-direction-column { flex-direction: column; }
+/* 主轴 */
+.flex-main-center { justify-content: center; }
+.flex-main-start { justify-content: flex-start; }
+.flex-main-end { justify-content: flex-end; }
+.flex-main-between { justify-content: space-between; }
+.flex-main-around { justify-content: space-around; }
+/* 交叉轴 */
+.flex-cross-center { align-items: center; }
+.flex-cross-start { align-items: flex-start; }
+.flex-cross-end { align-items: flex-end; }

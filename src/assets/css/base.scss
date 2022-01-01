@@ -1,0 +1,9 @@
+@import url(./base.css);
+
+$min-width: 1300px;
+
+.page-content {
+  // max-width: $min-width;
+  width: $min-width;
+  margin: 0 auto;
+}
