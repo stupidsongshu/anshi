@@ -2,11 +2,7 @@
   <div class="page-solution">
     <MyHeader></MyHeader>
 
-    <HeaderBanner
-      title="开源治理服务"
-      desc="安势开源治理服务能帮助企业快速评估与控制开源软件所带来知识产权、信息安全等一系列问题，自主研发的开源治理工具能快速实现开源治理的全过程接入"
-      :bgurl="bannerUrl"
-    />
+    <MyBanner></MyBanner>
 
     <div class="section-nav">
       <div class="page-content">

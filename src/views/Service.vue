@@ -2,11 +2,7 @@
   <div>
     <MyHeader></MyHeader>
 
-    <HeaderBanner
-      title="安势公司"
-      desc="提供具有国际竞争力的自主创新安全产品和最佳实践服务"
-      :bgurl="bannerUrl"
-    />
+    <MyBanner></MyBanner>
 
     <div class="flex">
       <div class="section-nav">

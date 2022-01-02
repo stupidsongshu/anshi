@@ -83,8 +83,6 @@ export default {
 <style lang="scss" scoped>
 .page-footer {
   padding: 34px 0 32px;
-  // color: #FFFFFF;
-  // background: linear-gradient(180deg, #B4B8C2 0%, #7E818A 100%);
 }
 
 .footer-nav-wrap {

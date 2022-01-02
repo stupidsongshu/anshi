@@ -5,7 +5,7 @@ import router from './router';
 // import store from './store';
 import MyHeader from './components/header.vue';
 import MyFooter from './components/footer.vue';
-import HeaderBanner from './components/header-banner.vue';
+import MyBanner from './components/banner.vue';
 
 import './assets/css/base.scss';
 
@@ -17,7 +17,7 @@ Vue.use(Popover);
 
 Vue.component(MyHeader.name, MyHeader);
 Vue.component(MyFooter.name, MyFooter);
-Vue.component(HeaderBanner.name, HeaderBanner);
+Vue.component(MyBanner.name, MyBanner);
 
 new Vue({
   router,

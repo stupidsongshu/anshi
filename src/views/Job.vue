@@ -3,7 +3,7 @@
     <MyHeader></MyHeader>
 
     <HeaderBanner
-      title="安势公司"
+      title="安势信息"
       desc="如果您正在寻找一流平台的职业机会，我们诚挚欢迎您的加入"
       :bgurl="bannerUrl"
     />

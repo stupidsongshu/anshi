@@ -2,11 +2,7 @@
   <div class="page-devsecops">
     <MyHeader></MyHeader>
 
-    <HeaderBanner
-      title="安全产品"
-      desc="清源SCA，是由安势研发团队自主研发，基于多年的开源软件、开源合规和漏洞数据的积累，通过多种行业领先的算法打造出安全、合规、高效、易用的软件成分分析系统，为企业梳理研发过程中的软件物料清单，解决研发开源治理过程中的安全和合规问题。"
-      :bgurl="bannerUrl"
-    />
+    <MyBanner></MyBanner>
 
     <div class="page-content section-opensource">
       <h2 class="opensource-title">开源风险分析产品</h2>

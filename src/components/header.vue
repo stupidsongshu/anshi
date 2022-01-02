@@ -28,7 +28,7 @@
           <span v-else>{{item.name}}</span>
         </router-link>
       </ul>
-      <router-link class="add-us flex flex-center" to="/job">加入我们</router-link>
+      <router-link class="add-us flex flex-center" to="/job">安势信息</router-link>
     </div>
   </div>
 </template>

@@ -2,11 +2,7 @@
   <div>
     <MyHeader></MyHeader>
 
-    <HeaderBanner
-      title="安势信息"
-      desc="安势是一家领先的实战创新型网络安全公司，专业的网络安全综合解決方案提供商。公司秉承“安全左移、以攻促防”的安全理念，专注于开源治理、漏洞风险检测、安全防御建设和攻防型人オ培养，致力于帮助用户先于黑客发现并及时解决安全问题，共同打造个更安全、更便捷、更美好的互联网世界。"
-      :bgurl="bannerUrl"
-    />
+    <MyBanner></MyBanner>
 
     <div class="section-company-profile">
       <div class="page-content flex flex-cross-center">
@@ -87,7 +83,7 @@
 export default {
   data() {
     return {
-      bannerUrl: require('../assets/img/banner/about.png'),
+      initialIndex: 0,
     };
   },
   mounted() {
@@ -186,6 +182,9 @@ export default {
     color: #0E1421;
   }
   .address-row {
+    & + .address-row {
+      margin-top: 5px;
+    }
     font-size: 16px;
     color: #666;
   }
