@@ -30,13 +30,13 @@ export default {
     width: 760px;
     color: #fff;
     .swiper-item-title {
-      font-size: 48px;
+      font-size: 30px;
       font-weight: 500;
       color: #FFFFFF;
     }
     .swiper-item-desc {
       margin-top: 20px;
-      font-size: 22px;
+      font-size: 16px;
       font-weight: 400;
       color: #FFFFFF;
       line-height: 39px;
