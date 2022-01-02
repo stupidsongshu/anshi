@@ -39,7 +39,10 @@
 </template>
 
 <script>
+import HeaderBanner from './component/header-banner.vue';
+
 export default {
+  components: { HeaderBanner },
   data() {
     return {
       bannerUrl: require('../assets/img/job/header-banner.png'),

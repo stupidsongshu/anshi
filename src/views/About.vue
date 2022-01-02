@@ -81,11 +81,6 @@
 
 <script>
 export default {
-  data() {
-    return {
-      initialIndex: 0,
-    };
-  },
   mounted() {
     this.initBdMap();
   },
